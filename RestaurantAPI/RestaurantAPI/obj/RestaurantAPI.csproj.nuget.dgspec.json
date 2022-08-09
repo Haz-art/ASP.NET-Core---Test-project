@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {}
+    "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core 2\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {
+    "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core 2\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core 2\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
         "projectName": "RestaurantAPI",
-        "projectPath": "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
+        "projectPath": "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core 2\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core\\RestaurantAPI\\RestaurantAPI\\obj\\",
+        "outputPath": "C:\\Users\\pc\\OneDrive\\Dokumenty\\all\\Code\\___Git___\\-=_cetuspro_=-\\ASP.NET-Core 2\\RestaurantAPI\\RestaurantAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
